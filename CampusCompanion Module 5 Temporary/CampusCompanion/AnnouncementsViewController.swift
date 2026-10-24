@@ -5,8 +5,7 @@ class AnnouncementsViewController: UITableViewController {
 
     private enum RemoteEndpoint {
         static let announcements =
-            URL(string: "https://raw.githubusercontent.com/feu-mad2/" +
-                "campus-companion-api/main/announcements.json")!
+            URL(string: "https://raw.githubusercontent.com/seanbolor/campus-companion-apiBolor/refs/heads/main/announcements.json")!
     }
     
     private var announcements: [CampusAnnouncement] = []
